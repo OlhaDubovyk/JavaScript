@@ -1,0 +1,8 @@
+// Масив чисел
+const numbers = [10, 20, 30, 40, 50];
+ 
+// Обчислюємо суму всіх елементів за допомогою reduce
+const sum = numbers.reduce((acc, current) => acc + current, 0);
+ 
+// Виводимо суму
+console.log(sum);

@@ -1,0 +1,9 @@
+// Початковий масив
+const numbersList = [1, 10, 14, 2, 4, 5, 43, 34];
+ 
+// Копіюємо масив за допомогою spread-оператора та сортуємо від меншого до більшого
+const sortedList = [...numbersList].sort((a, b) => a - b);
+ 
+// Виводимо обидва масиви
+console.log("Original array:", numbersList);
+console.log("Sorted array:", sortedList);

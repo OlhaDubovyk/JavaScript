@@ -1,0 +1,9 @@
+// Два початкові масиви
+const firstArray = [1, 2, 3];
+const secondArray = [4, 5, 6];
+ 
+// Об'єднуємо обидва масиви за допомогою spread оператора
+const combined = [...firstArray, ...secondArray];
+ 
+// Виводимо об'єднаний масив
+console.log(combined);
