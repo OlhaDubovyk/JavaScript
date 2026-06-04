@@ -1,0 +1,8 @@
+// Початковий масив
+const original = [1, 2, 3, 4, 5];
+ 
+// Створюємо новий масив: кожен елемент множимо на його індекс
+const mutated = original.map((element, index) => element * index);
+ 
+// Виводимо новий масив
+console.log(mutated);
